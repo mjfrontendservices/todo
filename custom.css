@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h3,
+p{
+    margin-bottom: 0px;
+}
+
+.spin{
+    height: 12px;
+    width: 12px;
+}
+
+.spin_btn{
+    display: none;
+}
+
+.current{
+    border-bottom: 2px green solid;
+}
+
+.green{
+    color: green;
+}
+
+header{
+    background: rgb(33, 98, 128);
+    color: #fff;
+    padding: 5px 0 5px 0;
+    text-align: center;
+}
+
+header h3{
+    font-size: 15px;
+}
+
+.input{
+    padding: 5px 0 5px 0;
+}
+
+.input .container{
+    display: flex;
+}
+
+.input .todo_input{
+    width: 80%;
+}
+
+.input input{
+    width: 100%;
+    font-size: 12px;
+    padding: 10px;
+    border: none;
+}
+
+.input .add_todo_button{
+    width: 20%;
+}
+
+.input button{
+    width: 100%;
+    border: none;
+    font-size: 12px;
+    padding: 10px;
+    background: rgb(33, 98, 128);
+    color: #fff;
+}
+
+.todo_input h3{
+    font-size: 20px;
+    padding: 8px 0 8px 0;
+}
+
+.task_done .container{
+    display: flex;
+}
+
+.task_done .task,
+.task_done .done{
+    padding: 5px;
+}
+
+.task_done .left,
+.task_done .right{
+    width: 50%;
+    text-align: center;
+    font-size: 12px;
+}
+
+.task_done .left a,
+.task_done .right a{
+    color: #000;
+}
+
+.task_done .left a:hover,
+.task_done .right a:hover{
+    text-decoration: none;
+}
+
+.tasks .lists{
+    display: flex;
+    font-size: 12px;
+    background: #f4f4f4;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.tasks ._done{
+    display: flex;
+    font-size: 12px;
+    background: #d3fec4;
+    padding: 10px;
+    margin-top: 10px;
+    color: #000;
+}
+
+.tasks .task{
+    width: 80%;
+}
+
+.tasks .done,
+.tasks .del{
+    width: 20%;
+    text-align: center;
+}
+
+.tasks .done{
+    color: green
+}
+
+.tasks .del{
+    color: red;;
+}
+
+/* _tasks */
+
+._tasks .lists{
+    display: flex;
+    font-size: 12px;
+    background: #f4f4f4;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+._tasks ._done{
+    display: flex;
+    font-size: 12px;
+    background: #d3fec4;
+    padding: 10px;
+    margin-top: 10px;
+    color: #000;
+}
+
+._tasks .task{
+    width: 80%;
+}
+
+._tasks .done,
+._tasks .del{
+    width: 20%;
+    text-align: center;
+}
+
+.tasks .done{
+    color: green
+}
+
+.tasks .del{
+    color: red;;
+}

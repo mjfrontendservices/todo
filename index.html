@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./jquerymobile/jquerymobile.css">
+    <link rel="stylesheet" href="./bootstrap/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="./bootstrap/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./fontawesome/css/brands.min.css">
+    <link rel="stylesheet" href="./fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="./fontawesome/css/regular.min.css">
+    <link rel="stylesheet" href="./fontawesome/css/solid.min.css">
+    <link rel="stylesheet" href="./fontawesome/css/svg-with-js.min.css">
+    <link rel="stylesheet" href="./fontawesome/css/v4-shims.min.css">
+    <link rel="manifest" href="./manifest/manifest.json">
+    <link rel="stylesheet" href="./custom.css">
+    <title>Todo App</title>
+</head>
+
+<body>
+
+    <!-- home -->
+
+    <div data-role="page" id="home" class="home">
+        <header>
+            <div class="container">
+                <h3>Todo List</h3>
+            </div>
+        </header>
+        <section class="input">
+            <div class="container">
+                <div class="todo_input">
+                    <input data-role="none" type="text" class="add_todo_input" placeholder="Add task...">
+                </div>
+                <div class="add_todo_button">
+                    <button data-role="none" class="add_todo_list">Add</button>
+                    <button data-role="none" class="spin_btn">
+                        <div class="spinner-border spin"></div>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="task_done">
+            <div class="container">
+                <div class="container">
+                    <div class="left">
+                        <a href="#home">
+                            <div class="task current">
+                                <p>Todo <span class="todo_count"></span></p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="right">
+                        <a href="#done">
+                            <div class="done">
+                                <p>Done <span class="done_count"></span></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+        </section>
+        <section class="tasks">
+            <div class="container">
+            </div>
+        </section>
+    </div>
+
+    <!-- done -->
+
+    <div data-role="page" id="done" class="done">
+        <header>
+            <div class="container">
+                <h3>Todo List</h3>
+            </div>
+        </header>
+        <section class="input">
+            <div class="container">
+                <div class="todo_input">
+                    <h3>Done <i class="fa fa-check green"></i></h3>
+                </div>
+                <div class="add_todo_button">
+                </div>
+            </div>
+        </section>
+        <section class="task_done">
+            <div class="container">
+                <div class="left">
+                    <a href="#home">
+                        <div class="task">
+                            <p>Todo <span class="todo_count"></span></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="right">
+                    <a href="#done">
+                        <div class="done current">
+                            <p>Done <span class="done_count"></span></p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="_tasks">
+            <div class="container">
+            </div>
+        </section>
+    </div>
+
+    <script src="./jquery/jquery.js"></script>
+    <script src="./jquerymobile/jquerymobile.js"></script>
+    <script src="./bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="./bootstrap/bootstrap.min.js"></script>
+    <script src="./custom.js"></script>
+</body>
+
+</html>

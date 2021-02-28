@@ -1,0 +1,22 @@
+{
+    "short_name": "Local Storage",
+    "name": "Local Storage Application",
+    "description": "An app that uses local storage",
+    "icons": [
+        {
+            "src": "./logo-96x96.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "./logobig.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        }
+    ],
+    "theme_color": "#000",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "background_color": "#000",
+    "orientation": "portrait"
+}
