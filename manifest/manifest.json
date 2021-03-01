@@ -1,7 +1,7 @@
 {
-    "short_name": "Local Storage",
-    "name": "Local Storage Application",
-    "description": "An app that uses local storage",
+    "short_name": "Todo list",
+    "name": "Todo list",
+    "description": "Todo list application",
     "icons": [
         {
             "src": "./logo-96x96.png",
